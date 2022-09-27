@@ -1,0 +1,343 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d4d4d4;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    height: 100%;
+}
+
+.all {
+    display: flexbox;
+    flex-direction: column;
+}
+
+.header {
+    margin-top: -15px;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(240, 77%, 12%);
+
+}
+
+.pro {
+    display: inline;
+}
+
+.rightheader {
+    color: hsl(0, 60%, 97%);
+    margin-left: 5px;
+
+}
+
+.search {
+    margin-top: 37px;
+}
+
+
+.search input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.search button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background: #ccc;
+}
+
+.bodd {
+    width: 95%;
+    background-color: white;
+    min-height: 195%;
+
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 2%;
+
+
+}
+
+.leftheader img {
+    width: 50;
+    height: 50;
+    border-radius: 100%;
+    margin-top: -10px;
+
+
+    margin-right: 10px;
+
+}
+
+.leftheader {
+    display: inline-flex;
+    margin-top: 40px;
+
+
+
+
+
+}
+
+.leftheader p {
+    font-weight: bold;
+    margin-left: 70px;
+    margin-right: 5px;
+
+    color: white;
+
+}
+
+
+
+.leftheader ul li {
+
+
+    margin-left: 15px;
+    display: inline;
+
+
+
+    list-style: none;
+}
+
+.leftheader ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.leftheader ul li a:hover {
+    color: rgb(255, 136, 0);
+
+}
+
+.rightheader img {
+    height: 60;
+    width: 60;
+    margin: 10px;
+    margin-top: 20px;
+    filter: invert();
+}
+
+.covercard {
+
+    display: inline-block;
+}
+
+
+
+.sa {
+    margin-left: 690px;
+}
+
+.contact ul {
+    display: inline-flex;
+
+    list-style: none;
+    margin-left: 200px;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact ul li {
+    margin-left: 40px;
+}
+
+.contact ul li a ion-icon {
+    font-size: 123px;
+}
+
+.bodd .cards {
+
+    width: 600px;
+    background-color: #ffffe2;
+    margin-top: 30px;
+
+
+
+    border-radius: 10px;
+
+    box-shadow: 1px 2px 1px 2px #25252563;
+
+
+}
+
+.all .footer {
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: hsl(240, 77%, 12%);
+    position: absolute;
+    justify-content: flex-end;
+
+
+
+
+}
+
+.pcard {
+    display: inline-flex;
+    margin-left: 10px;
+
+}
+
+.cards p {
+    color: black;
+    margin-left: 5px;
+
+}
+
+.cards h5 a {
+    color: rgb(70, 63, 8);
+    margin: 5px;
+    text-decoration: none;
+    font-size: 15px;
+
+
+
+}
+
+.cards h5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+
+}
+
+.pagination {
+    margin-top: 30px;
+}
+
+.pag {
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 190px;
+}
+
+.bt {
+
+    font-size: 16px;
+    background: transparent;
+    border: none;
+}
+
+
+
+
+
+
+
+.cards h5 p {
+    font-size: 14px;
+    margin-top: 10px;
+
+
+
+}
+
+
+.bodd .catagory {
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 390px;
+
+}
+
+.bodd .edit .profiles img {
+    width: 300px;
+    height: 300px;
+    margin-left: 180px;
+
+
+}
+
+.bodd .edit .profiles h5 {
+
+    margin-left: 180px;
+
+
+}
+
+.edit {
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+
+.cards h5 :hover {
+    color: rgb(255, 166, 0);
+    cursor: pointer;
+
+}
+
+.cards h6 {
+    margin: 0;
+    color: black;
+    font-size: 20px;
+    margin-left: 90px;
+
+}
+
+.as {
+    color: rgba(8, 4, 65, 0.336);
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+ion-icon {
+    font-size: 22px;
+    margin-bottom: -5px;
+
+
+}
+
+.pcard img {
+    width: 40;
+    height: 40;
+    border-radius: 100%;
+    margin-top: 20px;
+
+
+
+
+
+
+
+
+
+}
+
+
+.all .footer ul li {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.all .footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.ask {
+    margin-top: 140px;
+}
